@@ -1,0 +1,2 @@
+export const getValue = (payload) => payload.map(item => ({ [item.current.placeholder]: item.current.value }))
+export const formatContact = (data) => ({ "id": Math.floor(Math.random() * 500000000) + 1, "Name": data[0].Name, "Email": data[1].Email, "Phone": data[2].Phone, "Hometown": data[3].Hometown })

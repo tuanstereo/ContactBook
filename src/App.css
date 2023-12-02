@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.active-theme{
+  color: #fff !important;
+  background-color: #282c34 !important;
+}
+.main{
+  height: 100vh;
+}
