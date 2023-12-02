@@ -20,7 +20,6 @@ const Header = () => {
         disPatchContact(updateTheme())
     }
     const updateOptions = e => {
-        console.log(e.target.innerHTML);
             setOptions(e.target.innerHTML)
     }
     return (
